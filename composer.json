@@ -1,0 +1,41 @@
+{
+    "name": "aminembarki/nl2li",
+    "description": "Simple Twig filter to turn a multiline text field into list items.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "nl2li"
+    ],
+    "support": {
+        "docs": "https://github.com/nl2li/nl2li/blob/master/README.md",
+        "issues": "https://github.com/nl2li/nl2li/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amine Mbarki",
+            "homepage": "https://github.com/aminembarki"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "aminembarki\\nl2li\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "nl2li",
+        "handle": "nl2li",
+        "developer": "Amine Mbarki",
+        "developerUrl": "https://github.com/aminembarki",
+        "documentationUrl": "https://github.com/nl2li/nl2li/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/nl2li/nl2li/master/CHANGELOG.md",
+        "class": "aminembarki\\nl2li\\Nl2li"
+    }
+}
