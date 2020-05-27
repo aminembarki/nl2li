@@ -2,7 +2,7 @@
     "name": "aminembarki/nl2li",
     "description": "Simple Twig filter to turn a multiline text field into list items.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
