@@ -54,7 +54,7 @@ class Nl2liTwigExtension extends AbstractExtension
     public function getFilters()
     {
         return [
-            new TwigFilter('someFilter', [$this, 'someInternalFunction']),
+            new TwigFilter('nl2li', [$this, 'nl2li']),
         ];
     }
 
